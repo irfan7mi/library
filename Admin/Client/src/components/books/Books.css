@@ -1,0 +1,111 @@
+.update-container{
+  background-color: wheat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 92vh;
+}
+
+.book-list-container{
+  background-color: wheat;
+  width: 100%;
+  color: white;
+  height: 82vh;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.book-list-container::-webkit-scrollbar{
+  display: none;
+}
+
+.search-container{
+  display: flex;
+  margin-left: 31%;
+  gap: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width:fit-content;  
+  background-color: blue;
+  padding: 15px 40px;
+}
+
+.search-container input{
+  padding: 6px 4px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.search-container button{
+  padding: 0px 20px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.search-container button:hover{
+  border: 1px solid white;
+}
+
+.book-list-title{
+  color: black;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.book-list-table{
+  padding: 3px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: left;
+}
+
+.book-list-table th{
+  padding: 7px 10px 8px 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+  background-color: blue;
+}
+
+.book-list-table td{
+  padding: 7px 3px 8px 10px;
+  font-size: 14px;
+  color: black;
+  border-bottom: 1px solid rgb(240, 236, 230);
+}
+
+.book-name-heading{
+  width: 240px;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 4px 0px;
+}
+
+.btn-container .update-btn{
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-container .update-btn:hover{
+  background-color: rgba(218, 165, 32, 0.747);
+}
+
+.btn-container .delete-btn{
+  padding: 6px 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-container .delete-btn:hover{
+  background-color: rgba(255, 0, 0, 0.712);
+}

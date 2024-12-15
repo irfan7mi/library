@@ -1,0 +1,191 @@
+.home-container{
+  width: 100%;
+  height: 100%;
+  background-color: wheat;
+}
+
+.card{
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+} 
+
+.visitors-books-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.count-details{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: blue;
+  width: 200px;
+  color: white;
+  padding: 5px 20px 15px;
+  gap: 12px;
+}
+
+.icon{
+  margin-top: 10px;
+  background-color: yellowgreen;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: -5px;
+}
+
+.text-container p{
+  margin-top: -20px;
+  font-size: 12px;
+}
+
+.admin-active-details{
+  margin-top: 20px;
+  margin-bottom: -10px;
+  display: flex;
+  gap: 20px;
+}
+
+.admin-details{
+  padding: 5px 20px 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+.admin-details-table{
+  margin-top: -10px;
+  font-size: 14px;
+  border: 1px solid rgba(143, 133, 117, 0.411);
+  border-radius: 5px;
+  width: 620px;
+}
+
+
+.admin-details-table th{
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+}
+
+.admin-details-table td{
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgb(240, 236, 230);
+}
+
+.admin-details-table th, td{
+  padding: 6px;
+  text-align: left;
+}
+
+.book-status{
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 20px 20px;
+  width: 33%;
+}
+
+.book-status-table{
+  margin-top: -10px;
+  min-width: 330px;
+  font-size: 14px;
+  border: 1px solid rgba(143, 133, 117, 0.411);
+  border-radius: 5px;
+}
+
+.book-status-table th{
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+}
+
+.book-status-table td{
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgb(240, 236, 230);
+}
+
+.book-status-table th, td{
+  text-align: left;
+  padding: 6px;
+}
+
+.announcements-container{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  height: 242px;
+}
+
+.announcement-img-container{
+  background-color: blue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 645px;
+}
+
+.announcement-title-container{
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 40px;
+}
+
+.announcement-img-container img{
+  height: 100px; 
+}
+
+.announcement-img-container h4{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  padding: 4px 0px;
+  color: white;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+.reports-status{
+  width: 33%;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 5px 20px 20px; 
+}
+
+.reports-status h4{
+  margin: 10px 0px 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.reports-details-container{
+  height: 180px;
+  overflow: scroll;
+}
+
+.report-content{
+  background-color: white;
+  width: 95%;
+  padding: 2px;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+.reports-details-container h5, p{
+  margin: 2px;
+}
+
+.reports-details-container h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.reports-details-container p{
+  font-size: 14px;
+}

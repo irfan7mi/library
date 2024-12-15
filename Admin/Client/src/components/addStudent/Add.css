@@ -1,0 +1,75 @@
+.add-container{
+  background-color: wheat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 91vh;
+}
+
+.add-book-title{
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
+
+.add-card{
+  padding: 20px 30px 5px;
+  height: fit-content;
+  margin: 30px;
+  width: fit-content;
+  background-color: blue;
+  color: wheat;
+  border-radius: 10px;
+}
+
+.bid-name-author{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.category-year-place{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+label{
+  display: block;
+}
+
+input{
+  padding: 10px 45px 10px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.dept-input{
+  width: 45px;
+}
+
+.year-input{
+  width: 90px;
+}
+
+.add-student-btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn{
+  background-color: white;
+  color: rgb(95, 50, 50);
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.514);
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.submit-btn:hover{
+  background-color: blue;
+  color: white;
+}

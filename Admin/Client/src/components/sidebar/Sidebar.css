@@ -1,0 +1,53 @@
+.sidebar-container{
+  background-color: white;
+  color: wheat;
+  width: 30vw;
+  min-width: 210px;
+  max-width: 250px;
+}
+
+.option-container{
+  padding: 14px 4px;
+  margin: 0px;
+  margin-left: 12px;
+}
+
+.option{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 10px 10px 10px;
+  list-style: none;
+  color: black;
+  background-color: white;
+}
+
+.option:hover{
+  background-color: rgba(245, 222, 179, 0.397);
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.option:active{
+  background-color: wheat;
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.active{
+  background-color: wheat;
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.active:hover{
+  background-color: wheat;
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+}

@@ -1,0 +1,131 @@
+.report-page{
+  width: 100%;
+  height: 92vh;
+  background-color: wheat;
+}
+
+.report-card{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.report-container{
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 30px;
+  width: fit-content;
+}
+
+.report-list-title{
+  text-align: center;
+  margin-bottom: -25px;
+}
+
+.title{
+  margin-top: 5px;
+}
+
+.new-request{
+  margin-left: 75%;
+  padding: 5px 10px;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.new-request:hover{
+  background-color: rgba(0, 0, 255, 0.774);
+}
+
+.report-container h3{
+  text-align: center;
+}
+
+.report-data-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.data-input{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.report-data-container label{
+  display: inline;
+}
+
+.report-data-container input{
+  padding: 8px 20px 8px 3px;
+  width: 280px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.report-data-container textarea{
+  padding: 2px;
+  outline: none;
+}
+
+.btn-container{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.btn-container button{
+  padding: 6px 20px;
+  background-color: white;
+  border: 1px solid wheat;
+  border-radius: 4px;
+}
+
+.btn-container button:hover{
+  background-color: blue;
+  border: 1px solid white;
+  color: white;
+}
+
+.report-list-title{
+  color: black;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.report-list-table{
+  margin-top: 14px;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: left;
+}
+
+.report-list-table th{
+  padding: 7px 10px 8px;
+  border-radius: 5px;
+  color: white;
+  border-bottom: 2px solid white;
+  background-color: blue;
+}
+
+.report-list-table td{
+  color: black;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(240, 236, 230);
+}
+
+.remove-btn{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 3px;
+}

@@ -1,0 +1,88 @@
+.curriculam-list-container{
+  background-color: wheat;
+  width: 100%;
+  color: white;
+  height: 92vh;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.curriculam-book-list-container::-webkit-scrollbar{
+  display: none;
+}
+
+.dept-year-container{
+  display: flex;
+  gap: 10px;
+  background-color: blue;
+  width: 520px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+}
+
+.input-container{
+  display: flex;
+  align-items: center;
+}
+
+.dept-year-container label{
+  margin-right: 10px;
+}
+
+.dept-year-container input{
+  padding: 6px 30px 6px 4px;
+  width: 100px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}
+
+.dept-year-container button{
+  padding: 6px 30px;
+  border-radius: 2px;
+  border: none;
+  margin-left: 30px;
+}
+
+.dept-year-container button:hover{
+  background-color: wheat;
+}
+
+.dept-input{
+  width: 65px;
+}
+
+.year-input{
+  width: 140px;
+}
+
+.curriculam-book-list-title{
+  color: black;
+  text-align: center;
+  margin-left: -15px;
+  margin-bottom: 5px;
+}
+
+.curriculam-book-list-table{
+  padding: 3px;
+  border-radius: 10px;
+  max-width: 70vw;
+  min-width: 55vw;
+  background-color: white;
+  text-align: left;
+  margin-left: 13%;
+}
+
+.curriculam-book-list-table th{
+  padding: 7px 10px 8px;
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+  background-color: blue;
+}
+
+.curriculam-book-list-table td{
+  color: black;
+  border-bottom: 1px solid rgb(240, 236, 230);
+}

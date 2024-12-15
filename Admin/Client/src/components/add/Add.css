@@ -1,0 +1,65 @@
+.add-book-container{
+  background-color: wheat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 91vh;
+}
+
+.add-book-title{
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
+
+.add-card{
+  padding: 20px 30px 5px;
+  height: fit-content;
+  margin: 30px;
+  width: fit-content;
+  background-color: rgb(30, 30, 41);
+  color: wheat;
+  border-radius: 10px;
+}
+
+.bid-name-author{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.category-year-place{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+label{
+  display: block;
+  font-weight: 500;
+  color: white;
+  margin-top: 5px;
+}
+
+input{
+  padding: 10px 10px 10px 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.rack-input{
+  padding: 10px 10px 10px 10px;
+  width: 60px;
+}
+
+.floor-input{
+  padding: 10px 10px 10px 10px;
+  width: 145px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
